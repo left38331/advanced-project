@@ -11,6 +11,8 @@ const ThemeProvider: FC = ({ children }) => {
         setTheme,
     }), [theme]);
 
+    console.log(defaultProps);
+
     return (
         <ThemeContext.Provider value={defaultProps}>
             {children}

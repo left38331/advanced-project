@@ -15,5 +15,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Егор",
+    "lastname": "Перхальский",
+    "age": 30,
+    "currency": "RUB",
+    "country": "Belarus",
+    "city": "Minsk",
+    "username": "admin",
+    "avatar": "https://sun2.beltelecom-by-minsk.userapi.com/s/v1/if1/7-THY60-r_ePEONpJSIjZF6ibUTdWoOYIFg9dG0JcvG9uCvOdkNbZoWgbl1EonVBXMOHIshd.jpg?size=200x200&quality=96&crop=141,76,1113,1113&ava=1"
+  }
 }

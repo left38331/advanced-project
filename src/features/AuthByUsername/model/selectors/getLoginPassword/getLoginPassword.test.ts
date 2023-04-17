@@ -1,4 +1,3 @@
-import { DeepPartial } from '@reduxjs/toolkit';
 import { StateSchema } from 'app/providers/StoreProvider';
 import { getLoginPassword } from './getLoginPassword';
 
@@ -7,6 +6,8 @@ describe('getLoginPassword.test', () => {
         const state: DeepPartial<StateSchema> = {
             loginForm: {
                 password: '123123',
+                username: '132',
+                isLoading: false,
             },
         };
 
